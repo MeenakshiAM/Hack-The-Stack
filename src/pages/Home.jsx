@@ -33,6 +33,7 @@ function Home() {
       <ScoreRules data={data} />
     </div>
   );
+  
 }
 
 export default Home;

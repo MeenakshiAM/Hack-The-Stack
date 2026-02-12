@@ -1,11 +1,11 @@
 {
   "eventName": "Hack The Stack",
-  "startDate": "2026-02-01T00:00:00Z",
-  "endDate": "2026-02-28T23:59:59Z",
+  "startDate": "2025-01-01T00:00:00Z",
+  "endDate": "2025-02-28T23:59:59Z",
   "repositories": [
-    "owner1/repo1",
-    "owner2/repo2",
-    "owner3/repo3"
+    "https://github.com/FOSSCLUB-LBSITW/Silly-Story-Generator",
+    "https://github.com/FOSSCLUB-LBSITW/Memory-block-game",
+    "https://github.com/FOSSCLUB-LBSITW/flappy-bird"
   ],
   "points": {
     "good first issue": 5,

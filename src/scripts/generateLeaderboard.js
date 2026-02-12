@@ -2,7 +2,7 @@ import fs from "fs";
 import { graphql } from "@octokit/graphql";
 import config from "../config.json" assert { type: "json" };
 
-const token = process.env.GITHUB_TOKEN;
+const token = process.env.HACK_THE_STACK_TOKEN;
 
 const graphqlWithAuth = graphql.defaults({
   headers: {

@@ -14,13 +14,13 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 22.14.0
 
       - run: npm install
 
       - run: node scripts/generateLeaderboard.js
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HACK_THE_STACK_TOKEN: ${{ secrets.HACK_THE_STACK_TOKEN }}
 
       - run: |
           git config user.name "github-actions"
