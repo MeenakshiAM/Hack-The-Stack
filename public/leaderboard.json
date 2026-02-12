@@ -1,9 +1,9 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-02-12T14:55:03.942Z",
-  "totalParticipants": 0,
+  "lastUpdated": "2026-02-12T14:58:49.134Z",
+  "totalParticipants": 6,
   "totalPRsCounted": 0,
-  "totalIssuesCounted": 0,
+  "totalIssuesCounted": 11,
   "reposTracked": 4,
   "scoringRules": {
     "good first issue": 5,
@@ -13,5 +13,54 @@
     "level3": 20,
     "issue": 1
   },
-  "leaderboard": []
+  "leaderboard": [
+    {
+      "rank": 1,
+      "username": "irisxvii",
+      "score": 3,
+      "totalPRs": 0,
+      "totalIssues": 3,
+      "reposContributed": 2
+    },
+    {
+      "rank": 2,
+      "username": "NimaMaria",
+      "score": 3,
+      "totalPRs": 0,
+      "totalIssues": 3,
+      "reposContributed": 1
+    },
+    {
+      "rank": 3,
+      "username": "Diya-NS",
+      "score": 2,
+      "totalPRs": 0,
+      "totalIssues": 2,
+      "reposContributed": 1
+    },
+    {
+      "rank": 4,
+      "username": "Poornimasreekumar",
+      "score": 1,
+      "totalPRs": 0,
+      "totalIssues": 1,
+      "reposContributed": 1
+    },
+    {
+      "rank": 5,
+      "username": "diya-git",
+      "score": 1,
+      "totalPRs": 0,
+      "totalIssues": 1,
+      "reposContributed": 1
+    },
+    {
+      "rank": 6,
+      "username": "Shreyajl3",
+      "score": 1,
+      "totalPRs": 0,
+      "totalIssues": 1,
+      "reposContributed": 1
+    }
+  ]
 }
