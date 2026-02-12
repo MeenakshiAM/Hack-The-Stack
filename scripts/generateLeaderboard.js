@@ -161,3 +161,4 @@ async function main() {
 
   console.log("Leaderboard generated successfully.");
 }
+main();
