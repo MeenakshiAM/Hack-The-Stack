@@ -1,8 +1,8 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-02-12T15:27:54.945Z",
-  "totalParticipants": 13,
-  "totalPRsCounted": 4,
+  "lastUpdated": "2026-02-12T15:39:36.504Z",
+  "totalParticipants": 14,
+  "totalPRsCounted": 8,
   "totalIssuesCounted": 42,
   "reposTracked": 4,
   "scoringRules": {
@@ -19,6 +19,14 @@
   "leaderboard": [
     {
       "rank": 1,
+      "username": "NimaMaria",
+      "score": 32,
+      "totalPRs": 3,
+      "totalIssues": 7,
+      "reposContributed": 3
+    },
+    {
+      "rank": 2,
       "username": "rspavithra",
       "score": 27,
       "totalPRs": 2,
@@ -26,28 +34,20 @@
       "reposContributed": 3
     },
     {
-      "rank": 2,
-      "username": "NimaMaria",
-      "score": 17,
+      "rank": 3,
+      "username": "HajaraRasheed12",
+      "score": 11,
       "totalPRs": 1,
-      "totalIssues": 7,
-      "reposContributed": 3
+      "totalIssues": 6,
+      "reposContributed": 2
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "diya-git",
       "score": 7,
       "totalPRs": 1,
       "totalIssues": 2,
       "reposContributed": 1
-    },
-    {
-      "rank": 4,
-      "username": "HajaraRasheed12",
-      "score": 6,
-      "totalPRs": 0,
-      "totalIssues": 6,
-      "reposContributed": 2
     },
     {
       "rank": 5,
@@ -59,6 +59,14 @@
     },
     {
       "rank": 6,
+      "username": "FOSSCLUB-LBSITW",
+      "score": 5,
+      "totalPRs": 1,
+      "totalIssues": 0,
+      "reposContributed": 1
+    },
+    {
+      "rank": 7,
       "username": "vaishnavi783",
       "score": 3,
       "totalPRs": 0,
@@ -66,7 +74,7 @@
       "reposContributed": 3
     },
     {
-      "rank": 7,
+      "rank": 8,
       "username": "PavithraKishore05",
       "score": 2,
       "totalPRs": 0,
@@ -74,7 +82,7 @@
       "reposContributed": 1
     },
     {
-      "rank": 8,
+      "rank": 9,
       "username": "Shreyajl3",
       "score": 2,
       "totalPRs": 0,
@@ -82,7 +90,7 @@
       "reposContributed": 1
     },
     {
-      "rank": 9,
+      "rank": 10,
       "username": "remithau",
       "score": 2,
       "totalPRs": 0,
@@ -90,7 +98,7 @@
       "reposContributed": 1
     },
     {
-      "rank": 10,
+      "rank": 11,
       "username": "Diya-NS",
       "score": 2,
       "totalPRs": 0,
@@ -98,7 +106,7 @@
       "reposContributed": 1
     },
     {
-      "rank": 11,
+      "rank": 12,
       "username": "UttaraPraveen",
       "score": 1,
       "totalPRs": 0,
@@ -106,7 +114,7 @@
       "reposContributed": 1
     },
     {
-      "rank": 12,
+      "rank": 13,
       "username": "Poornimasreekumar",
       "score": 1,
       "totalPRs": 0,
@@ -114,7 +122,7 @@
       "reposContributed": 1
     },
     {
-      "rank": 13,
+      "rank": 14,
       "username": "BKM-05",
       "score": 1,
       "totalPRs": 0,
