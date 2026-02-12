@@ -61,7 +61,7 @@ function calculatePoints(labels, isIssue = false) {
  // if (!labelNames.includes("hack the stack")) return 0;
 
   if (isIssue) {
-    return config.points.issue_open; // or config.points.issue if you renamed it
+    return config.points.issue; // or config.points.issue if you renamed it
   }
 
   // For PRs, take highest matching label
