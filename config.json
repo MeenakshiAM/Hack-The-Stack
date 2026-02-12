@@ -3,9 +3,9 @@
   "startDate": "2025-01-01T00:00:00Z",
   "endDate": "2025-02-28T23:59:59Z",
   "repositories": [
-    "https://github.com/FOSSCLUB-LBSITW/Silly-Story-Generator",
-    "https://github.com/FOSSCLUB-LBSITW/Memory-block-game",
-    "https://github.com/FOSSCLUB-LBSITW/flappy-bird"
+    "FOSSCLUB-LBSITW/Silly-Story-Generator",
+    "FOSSCLUB-LBSITW/Memory-block-game",
+    "FOSSCLUB-LBSITW/flappy-bird"
   ],
   "points": {
     "good first issue": 5,
