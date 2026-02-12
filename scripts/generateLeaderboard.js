@@ -20,9 +20,12 @@ async function fetchRepoData(owner, name) {
     query {
       repository(owner: "${owner}", name: "${name}") {
 
-        pullRequests(first: 100, states: MERGED) {
+        pullRequests(first: 100, states: [OPEN, CLOSED, MERGED]) {
           nodes {
             id
+            state
+            createdAt
+            closedAt
             mergedAt
             author { login }
             labels(first: 20) {
@@ -73,21 +76,15 @@ function isWithinEvent(date) {
 function calculatePoints(labels = [], isIssue = false) {
   const labelNames = labels.map(l => l.name.toLowerCase());
 
-  // ✅ Must have Hack the Stack label
+  // Must have hack the stack label
   //if (!labelNames.includes("hack the stack")) return 0;
 
-  // -------------------------
-  // ISSUE SCORING
-  // -------------------------
   if (isIssue) {
     return config.points.issue || 0;
   }
 
-  // -------------------------
-  // PR SCORING (level-based)
-  // -------------------------
+  // PR scoring based on highest level label
   let maxPoints = 0;
-
   for (const label of labelNames) {
     if (config.points[label]) {
       maxPoints = Math.max(maxPoints, config.points[label]);
@@ -99,7 +96,7 @@ function calculatePoints(labels = [], isIssue = false) {
 
 async function main() {
   const leaderboard = {};
-  const countedIssueIds = new Set(); // prevent double counting
+  const countedIssueIds = new Set();
   let totalPRsCounted = 0;
   let totalIssuesCounted = 0;
 
@@ -112,10 +109,20 @@ async function main() {
     const closedIssues = data.repository.closedIssues.nodes;
 
     // -------------------------
-    // PROCESS MERGED PRs
+    // PROCESS ALL PR STATES
     // -------------------------
     for (const pr of prs) {
-      if (!isWithinEvent(pr.mergedAt)) continue;
+      let relevantDate = null;
+
+      if (pr.state === "MERGED") {
+        relevantDate = pr.mergedAt;
+      } else if (pr.state === "OPEN") {
+        relevantDate = pr.createdAt;
+      } else if (pr.state === "CLOSED") {
+        relevantDate = pr.closedAt;
+      }
+
+      if (!isWithinEvent(relevantDate)) continue;
 
       const points = calculatePoints(pr.labels?.nodes || []);
       if (!points) continue;
@@ -200,9 +207,6 @@ async function main() {
     }
   }
 
-  // -------------------------
-  // SORT & FORMAT
-  // -------------------------
   const sorted = Object.entries(leaderboard)
     .map(([username, stats]) => ({
       username,
@@ -217,9 +221,6 @@ async function main() {
       ...user
     }));
 
-  // -------------------------
-  // WRITE OUTPUT
-  // -------------------------
   fs.writeFileSync(
     "./public/leaderboard.json",
     JSON.stringify({
@@ -234,7 +235,7 @@ async function main() {
     }, null, 2)
   );
 
-  console.log(" Leaderboard generated successfully.");
+  console.log("✅ Leaderboard generated successfully.");
 }
 
 main();
