@@ -14,25 +14,27 @@ async function fetchRepoData(owner, name) {
   const query = `
     query {
       repository(owner: "${owner}", name: "${name}") {
+
         pullRequests(first: 100, states: MERGED) {
           nodes {
-            title
-            createdAt
+            mergedAt
             author { login }
             labels(first: 10) {
               nodes { name }
             }
           }
         }
-        issues(first: 100, states: OPEN) {
+
+        issues(first: 100, states: CLOSED) {
           nodes {
-            createdAt
+            closedAt
             author { login }
             labels(first: 10) {
               nodes { name }
             }
           }
         }
+
       }
     }
   `;
@@ -41,6 +43,8 @@ async function fetchRepoData(owner, name) {
 }
 
 function isWithinEvent(date) {
+  if (!date) return false;
+
   const d = new Date(date);
   return (
     d >= new Date(config.startDate) &&
@@ -53,12 +57,14 @@ function calculatePoints(labels, isIssue = false) {
 
   const labelNames = labels.map(l => l.name.toLowerCase());
 
+  // Must have hack the stack label
   if (!labelNames.includes("hack the stack")) return 0;
 
   if (isIssue) {
-    return config.points.issue_open;
+    return config.points.issue_open; // or config.points.issue if you renamed it
   }
 
+  // For PRs, take highest matching label
   for (const label of labelNames) {
     if (config.points[label]) {
       points = Math.max(points, config.points[label]);
@@ -80,8 +86,11 @@ async function main() {
     const prs = data.repository.pullRequests.nodes;
     const issues = data.repository.issues.nodes;
 
+    // --------------------
+    // Process PRs (MERGED)
+    // --------------------
     for (const pr of prs) {
-      if (!isWithinEvent(pr.createdAt)) continue;
+      if (!isWithinEvent(pr.mergedAt)) continue;
 
       const points = calculatePoints(pr.labels.nodes);
       if (!points) continue;
@@ -105,8 +114,11 @@ async function main() {
       totalPRsCounted += 1;
     }
 
+    // -----------------------
+    // Process Issues (CLOSED)
+    // -----------------------
     for (const issue of issues) {
-      if (!isWithinEvent(issue.createdAt)) continue;
+      if (!isWithinEvent(issue.closedAt)) continue;
 
       const points = calculatePoints(issue.labels.nodes, true);
       if (!points) continue;
@@ -161,4 +173,5 @@ async function main() {
 
   console.log("Leaderboard generated successfully.");
 }
+
 main();
