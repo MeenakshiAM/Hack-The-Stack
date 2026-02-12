@@ -14,6 +14,10 @@
     "level1": 10,
     "level2": 15,
     "level3": 20,
-    "issue": 1
+    "issue": 1,
+    "level-1": 10,
+    "level-2": 15,
+    "level-3": 20
+
   }
 }
