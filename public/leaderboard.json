@@ -1,0 +1,36 @@
+{
+  "eventName": "Hack The Stack - Feb 2026",
+  "lastUpdated": "2026-02-12T18:00:00Z",
+  "totalParticipants": 3,
+  "totalPRsCounted": 12,
+  "totalIssuesCounted": 5,
+  "reposTracked": 12,
+
+  "scoringRules": {
+    "good-first-issue": 5,
+    "documentation": 5,
+    "level1": 10,
+    "level2": 15,
+    "level3": 20,
+    "issue": 1
+  },
+
+  "leaderboard": [
+    {
+      "rank": 1,
+      "username": "alice",
+      "score": 42,
+      "totalPRs": 3,
+      "totalIssues": 2,
+      "reposContributed": 4
+    },
+    {
+      "rank": 2,
+      "username": "bob",
+      "score": 28,
+      "totalPRs": 2,
+      "totalIssues": 3,
+      "reposContributed": 3
+    }
+  ]
+}
