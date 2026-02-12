@@ -1,18 +1,42 @@
 {
-  "event": "Hack The Stack",
-  "lastUpdated": "2026-02-12T08:52:37.532Z",
-  "participants": [
+  "eventName": "Hack The Stack",
+  "lastUpdated": "2026-02-12T11:11:38.039Z",
+  "totalParticipants": 3,
+  "totalPRsCounted": 0,
+  "totalIssuesCounted": 6,
+  "reposTracked": 3,
+  "scoringRules": {
+    "good first issue": 5,
+    "documentation": 5,
+    "level1": 10,
+    "level2": 15,
+    "level3": 20,
+    "issue_open": 1
+  },
+  "leaderboard": [
     {
-      "user": "rspavithra",
-      "points": 4
+      "rank": 1,
+      "username": "rspavithra",
+      "score": 4,
+      "totalPRs": 0,
+      "totalIssues": 4,
+      "reposContributed": 1
     },
     {
-      "user": "vaishnavi783",
-      "points": 1
+      "rank": 2,
+      "username": "vaishnavi783",
+      "score": 1,
+      "totalPRs": 0,
+      "totalIssues": 1,
+      "reposContributed": 1
     },
     {
-      "user": "HajaraRasheed12",
-      "points": 1
+      "rank": 3,
+      "username": "HajaraRasheed12",
+      "score": 1,
+      "totalPRs": 0,
+      "totalIssues": 1,
+      "reposContributed": 1
     }
   ]
 }
