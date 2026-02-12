@@ -1,8 +1,8 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-02-12T15:39:36.504Z",
+  "lastUpdated": "2026-02-12T15:47:51.334Z",
   "totalParticipants": 14,
-  "totalPRsCounted": 8,
+  "totalPRsCounted": 11,
   "totalIssuesCounted": 42,
   "reposTracked": 4,
   "scoringRules": {
@@ -19,6 +19,14 @@
   "leaderboard": [
     {
       "rank": 1,
+      "username": "rspavithra",
+      "score": 47,
+      "totalPRs": 4,
+      "totalIssues": 7,
+      "reposContributed": 3
+    },
+    {
+      "rank": 2,
       "username": "NimaMaria",
       "score": 32,
       "totalPRs": 3,
@@ -26,15 +34,15 @@
       "reposContributed": 3
     },
     {
-      "rank": 2,
-      "username": "rspavithra",
-      "score": 27,
-      "totalPRs": 2,
-      "totalIssues": 7,
-      "reposContributed": 3
+      "rank": 3,
+      "username": "Diya-NS",
+      "score": 12,
+      "totalPRs": 1,
+      "totalIssues": 2,
+      "reposContributed": 1
     },
     {
-      "rank": 3,
+      "rank": 4,
       "username": "HajaraRasheed12",
       "score": 11,
       "totalPRs": 1,
@@ -42,7 +50,7 @@
       "reposContributed": 2
     },
     {
-      "rank": 4,
+      "rank": 5,
       "username": "diya-git",
       "score": 7,
       "totalPRs": 1,
@@ -50,7 +58,7 @@
       "reposContributed": 1
     },
     {
-      "rank": 5,
+      "rank": 6,
       "username": "irisxvii",
       "score": 6,
       "totalPRs": 0,
@@ -58,7 +66,7 @@
       "reposContributed": 3
     },
     {
-      "rank": 6,
+      "rank": 7,
       "username": "FOSSCLUB-LBSITW",
       "score": 5,
       "totalPRs": 1,
@@ -66,7 +74,7 @@
       "reposContributed": 1
     },
     {
-      "rank": 7,
+      "rank": 8,
       "username": "vaishnavi783",
       "score": 3,
       "totalPRs": 0,
@@ -74,7 +82,7 @@
       "reposContributed": 3
     },
     {
-      "rank": 8,
+      "rank": 9,
       "username": "PavithraKishore05",
       "score": 2,
       "totalPRs": 0,
@@ -82,7 +90,7 @@
       "reposContributed": 1
     },
     {
-      "rank": 9,
+      "rank": 10,
       "username": "Shreyajl3",
       "score": 2,
       "totalPRs": 0,
@@ -90,16 +98,8 @@
       "reposContributed": 1
     },
     {
-      "rank": 10,
-      "username": "remithau",
-      "score": 2,
-      "totalPRs": 0,
-      "totalIssues": 2,
-      "reposContributed": 1
-    },
-    {
       "rank": 11,
-      "username": "Diya-NS",
+      "username": "remithau",
       "score": 2,
       "totalPRs": 0,
       "totalIssues": 2,
