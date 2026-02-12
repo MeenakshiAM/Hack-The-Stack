@@ -2,7 +2,7 @@ const fs = require("fs");
 const { graphql } = require("@octokit/graphql");
 const config = require("../config.json");
 
-const token = process.env.GITHUB_TOKEN;
+const token = process.env.HACK_THE_STACK_TOKEN;
 
 const graphqlWithAuth = graphql.defaults({
   headers: {
