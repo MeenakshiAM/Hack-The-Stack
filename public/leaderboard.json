@@ -1,9 +1,9 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-02-12T14:58:49.134Z",
-  "totalParticipants": 6,
+  "lastUpdated": "2026-02-12T15:14:47.163Z",
+  "totalParticipants": 13,
   "totalPRsCounted": 0,
-  "totalIssuesCounted": 11,
+  "totalIssuesCounted": 42,
   "reposTracked": 4,
   "scoringRules": {
     "good first issue": 5,
@@ -11,27 +11,86 @@
     "level1": 10,
     "level2": 15,
     "level3": 20,
-    "issue": 1
+    "issue": 1,
+    "level-1": 10,
+    "level-2": 15,
+    "level-3": 20
   },
   "leaderboard": [
     {
       "rank": 1,
-      "username": "irisxvii",
-      "score": 3,
+      "username": "rspavithra",
+      "score": 7,
       "totalPRs": 0,
-      "totalIssues": 3,
-      "reposContributed": 2
+      "totalIssues": 7,
+      "reposContributed": 3
     },
     {
       "rank": 2,
       "username": "NimaMaria",
-      "score": 3,
+      "score": 7,
       "totalPRs": 0,
-      "totalIssues": 3,
-      "reposContributed": 1
+      "totalIssues": 7,
+      "reposContributed": 3
     },
     {
       "rank": 3,
+      "username": "HajaraRasheed12",
+      "score": 6,
+      "totalPRs": 0,
+      "totalIssues": 6,
+      "reposContributed": 2
+    },
+    {
+      "rank": 4,
+      "username": "irisxvii",
+      "score": 6,
+      "totalPRs": 0,
+      "totalIssues": 6,
+      "reposContributed": 3
+    },
+    {
+      "rank": 5,
+      "username": "vaishnavi783",
+      "score": 3,
+      "totalPRs": 0,
+      "totalIssues": 3,
+      "reposContributed": 3
+    },
+    {
+      "rank": 6,
+      "username": "PavithraKishore05",
+      "score": 2,
+      "totalPRs": 0,
+      "totalIssues": 2,
+      "reposContributed": 1
+    },
+    {
+      "rank": 7,
+      "username": "diya-git",
+      "score": 2,
+      "totalPRs": 0,
+      "totalIssues": 2,
+      "reposContributed": 1
+    },
+    {
+      "rank": 8,
+      "username": "Shreyajl3",
+      "score": 2,
+      "totalPRs": 0,
+      "totalIssues": 2,
+      "reposContributed": 1
+    },
+    {
+      "rank": 9,
+      "username": "remithau",
+      "score": 2,
+      "totalPRs": 0,
+      "totalIssues": 2,
+      "reposContributed": 1
+    },
+    {
+      "rank": 10,
       "username": "Diya-NS",
       "score": 2,
       "totalPRs": 0,
@@ -39,7 +98,15 @@
       "reposContributed": 1
     },
     {
-      "rank": 4,
+      "rank": 11,
+      "username": "UttaraPraveen",
+      "score": 1,
+      "totalPRs": 0,
+      "totalIssues": 1,
+      "reposContributed": 1
+    },
+    {
+      "rank": 12,
       "username": "Poornimasreekumar",
       "score": 1,
       "totalPRs": 0,
@@ -47,16 +114,8 @@
       "reposContributed": 1
     },
     {
-      "rank": 5,
-      "username": "diya-git",
-      "score": 1,
-      "totalPRs": 0,
-      "totalIssues": 1,
-      "reposContributed": 1
-    },
-    {
-      "rank": 6,
-      "username": "Shreyajl3",
+      "rank": 13,
+      "username": "BKM-05",
       "score": 1,
       "totalPRs": 0,
       "totalIssues": 1,
