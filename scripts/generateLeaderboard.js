@@ -1,3 +1,73 @@
+import fs from "fs";
+import { graphql } from "@octokit/graphql";
+import config from "../config.json" assert { type: "json" };
+
+const token = process.env.GITHUB_TOKEN;
+
+const graphqlWithAuth = graphql.defaults({
+  headers: {
+    authorization: `token ${token}`,
+  },
+});
+
+async function fetchRepoData(owner, name) {
+  const query = `
+    query {
+      repository(owner: "${owner}", name: "${name}") {
+        pullRequests(first: 100, states: MERGED) {
+          nodes {
+            title
+            createdAt
+            author { login }
+            labels(first: 10) {
+              nodes { name }
+            }
+          }
+        }
+        issues(first: 100, states: OPEN) {
+          nodes {
+            createdAt
+            author { login }
+            labels(first: 10) {
+              nodes { name }
+            }
+          }
+        }
+      }
+    }
+  `;
+
+  return await graphqlWithAuth(query);
+}
+
+function isWithinEvent(date) {
+  const d = new Date(date);
+  return (
+    d >= new Date(config.startDate) &&
+    d <= new Date(config.endDate)
+  );
+}
+
+function calculatePoints(labels, isIssue = false) {
+  let points = 0;
+
+  const labelNames = labels.map(l => l.name.toLowerCase());
+
+  if (!labelNames.includes("hack the stack")) return 0;
+
+  if (isIssue) {
+    return config.points.issue_open;
+  }
+
+  for (const label of labelNames) {
+    if (config.points[label]) {
+      points = Math.max(points, config.points[label]);
+    }
+  }
+
+  return points;
+}
+
 async function main() {
   const leaderboard = {};
   let totalPRsCounted = 0;
