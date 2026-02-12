@@ -1,6 +1,7 @@
-import fs from "fs";
-import { graphql } from "@octokit/graphql";
-import config from "../config.json" assert { type: "json" };
+const fs = require("fs");
+const { graphql } = require("@octokit/graphql");
+const config = require("../config.json");
+
 
 const token = process.env.HACK_THE_STACK_TOKEN;
 
