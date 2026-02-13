@@ -27,7 +27,7 @@ async function fetchRepoData(owner, name) {
             createdAt
             closedAt
             mergedAt
-            author { login }
+            author { login avatarUrl }
             labels(first: 20) {
               nodes { name }
             }
@@ -38,7 +38,7 @@ async function fetchRepoData(owner, name) {
           nodes {
             id
             createdAt
-            author { login }
+            author { login avatarUrl}
             labels(first: 20) {
               nodes { name }
             }
@@ -49,7 +49,7 @@ async function fetchRepoData(owner, name) {
           nodes {
             id
             closedAt
-            author { login }
+            author { login avatarUrl}
             labels(first: 20) {
               nodes { name }
             }
