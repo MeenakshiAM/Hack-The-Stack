@@ -136,7 +136,7 @@ async function main() {
           totalPRs: 0,
           totalIssues: 0,
           repos: new Set(),
-          avatarUrl: pr.author?.avatarUrl || issue?.author?.avatarUrl || null
+          avatarUrl: pr.author?.avatarUrl || null
         };
       }
 
