@@ -8,8 +8,8 @@ function Header({ data }) {
         bg-gradient-to-r from-indigo-400 via-teal-400 to-cyan-400
         bg-clip-text text-transparent
         bg-[length:200%_200%]
-        animate-shimmer
-        drop-shadow-xl
+        animate-shimmer mt-12
+        drop-shadow-xl 
       ">
         {data.eventName}
       </h1>
