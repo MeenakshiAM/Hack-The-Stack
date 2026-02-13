@@ -5,7 +5,7 @@ const config = require("../config.json");
 const token = process.env.HACK_THE_STACK_TOKEN;
 
 if (!token) {
-  console.error("❌ Missing HACK_THE_STACK_TOKEN");
+  console.error(" Missing HACK_THE_STACK_TOKEN");
   process.exit(1);
 }
 

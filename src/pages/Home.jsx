@@ -22,18 +22,31 @@ function Home() {
       });
   }, []);
 
-  if (loading) return <h2>Loading leaderboard...</h2>;
-  if (error) return <h2>Failed to load leaderboard.</h2>;
+  if (loading)
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-slate-950 text-white">
+        <h2 className="text-2xl text-red font-bold animate-pulse">
+          Syncing Leaderboard...
+        </h2>
+      </div>
+    );
+
+  if (error)
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-slate-950 text-red-500">
+        Failed to load leaderboard.
+      </div>
+    );
 
   return (
-    <div style={{ padding: "2rem" }}>
-      <Header data={data} />
-      <StatsBar data={data} />
-      <LeaderboardTable data={data} />
-      <ScoreRules data={data} />
+    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-indigo-950 to-slate-900 text-white px-6 py-12">
+      <div className="max-w-6xl mx-auto space-y-16">
+        <Header data={data} />
+        <LeaderboardTable data={data} />
+        
+      </div>
     </div>
   );
-  
 }
 
 export default Home;
