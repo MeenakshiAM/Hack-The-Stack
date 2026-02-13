@@ -27,13 +27,18 @@ function LeaderboardTable({ data }) {
               ) : index === 1 ? (
                 <Crown className="w-8 h-8 text-gray-300 drop-shadow-lg" />
               ) : index === 2 ? (
-                <Crown className="w-8 h-8 text-pink-400 drop-shadow-lg" />
+                <Crown className="w-8 h-8 text-orange-600 drop-shadow-lg" />
               ) : (
                 <span className="text-lg font-black opacity-40">
                   {user.rank}
                 </span>
               )}
             </div>
+              <img
+                src={user.avatarUrl}
+                alt={user.username}
+                className="w-12 h-12 rounded-full border-2 border-indigo-500"
+              />
 
             {/* Username */}
             <div className="flex-1">
@@ -47,7 +52,7 @@ function LeaderboardTable({ data }) {
                   {user.totalPRs} PRs
                 </span>
 
-                <span className="flex items-center gap-1 text-orange-400">
+                <span className="flex items-center gap-1 text-red-400">
                   <AlertCircle size={14} />
                   {user.totalIssues} Issues
                 </span>

@@ -135,7 +135,8 @@ async function main() {
           score: 0,
           totalPRs: 0,
           totalIssues: 0,
-          repos: new Set()
+          repos: new Set(),
+          avatarUrl: pr.author?.avatarUrl || issue?.author?.avatarUrl || null
         };
       }
 
@@ -164,7 +165,8 @@ async function main() {
           score: 0,
           totalPRs: 0,
           totalIssues: 0,
-          repos: new Set()
+          repos: new Set(),
+          avatarUrl: pr.author?.avatarUrl || null
         };
       }
 
@@ -194,7 +196,8 @@ async function main() {
           score: 0,
           totalPRs: 0,
           totalIssues: 0,
-          repos: new Set()
+          repos: new Set(),
+          avatarUrl: pr.author?.avatarUrl || null
         };
       }
 
@@ -210,11 +213,13 @@ async function main() {
   const sorted = Object.entries(leaderboard)
     .map(([username, stats]) => ({
       username,
+      avatarUrl: stats.avatarUrl,
       score: stats.score,
       totalPRs: stats.totalPRs,
       totalIssues: stats.totalIssues,
       reposContributed: stats.repos.size
     }))
+
     .sort((a, b) => b.score - a.score)
     .map((user, index) => ({
       rank: index + 1,
