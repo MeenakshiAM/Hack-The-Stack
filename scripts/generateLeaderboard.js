@@ -166,7 +166,8 @@ async function main() {
           totalPRs: 0,
           totalIssues: 0,
           repos: new Set(),
-          avatarUrl: pr.author?.avatarUrl || null
+          avatarUrl: issue.author?.avatarUrl || null
+
         };
       }
 
@@ -197,7 +198,7 @@ async function main() {
           totalPRs: 0,
           totalIssues: 0,
           repos: new Set(),
-          avatarUrl: pr.author?.avatarUrl || null
+          avatarUrl: issue.author?.avatarUrl || null
         };
       }
 
@@ -240,7 +241,7 @@ async function main() {
     }, null, 2)
   );
 
-  console.log("✅ Leaderboard generated successfully.");
+  console.log(" Leaderboard generated successfully.");
 }
 
 main();
