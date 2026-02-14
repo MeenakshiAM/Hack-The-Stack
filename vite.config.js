@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [
     react()
   ],
-  base: 'Hack-The-Stack',
+  base: '/Hack-The-Stack/',
 })
