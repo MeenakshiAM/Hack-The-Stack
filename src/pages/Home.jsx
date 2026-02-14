@@ -10,7 +10,8 @@ function Home() {
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    fetch("/leaderboard.json")
+    fetch(`${import.meta.env.BASE_URL}leaderboard.json`)
+
       .then((res) => res.json())
       .then((json) => {
         setData(json);
