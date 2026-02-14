@@ -4,7 +4,7 @@ function LeaderboardTable({ data }) {
   const leaderboard = data.leaderboard;
 
   return (
-    <div className="bg-white/5 mr-20 ml-20 backdrop-blur-2xl rounded-3xl border border-white/10 p-6 shadow-2xl ">
+    <div className="bg-white/5 mr-20 ml-20 backdrop-blur-2xl rounded-3xl border border-gray-600 p-6 shadow-2xl ">
       <div className="mb-10">
         <h2 className="text-4xl font-black tracking-tight uppercase">
           Leaderboard
@@ -18,7 +18,7 @@ function LeaderboardTable({ data }) {
         {leaderboard.map((user, index) => (
           <div
             key={user.username}
-            className="flex items-center gap-4 bg-slate-800/50 hover:bg-slate-700/60 transition-all p-[12px] rounded-2xl border border-white/5 hover:scale-[1.01]"
+            className="flex items-center gap-4 bg-slate-800/50 hover:bg-slate-700/60 transition-all p-[12px] rounded-2xl border border-gray-600 hover:scale-[1.01]"
           >
             {/* Rank */}
             <div className="w-12 flex justify-center">
@@ -37,7 +37,7 @@ function LeaderboardTable({ data }) {
               <img
                 src={user.avatarUrl}
                 alt={user.username}
-                className="w-12 h-12 rounded-full border-2 border-indigo-500"
+                className="w-12 h-12 rounded-full border-2 border-teal-200"
               />
 
             {/* Username */}

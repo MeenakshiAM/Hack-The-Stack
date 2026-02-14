@@ -51,6 +51,31 @@ function About() {
           </ul>
         </section>
 
+        <section className="space-y-6">
+          <h2 className="text-2xl font-bold text-indigo-400">
+            Points System
+          </h2>
+
+          <div className="bg-slate-900/60 border border-white/10 rounded-2xl p-6 space-y-4 text-slate-300">
+            
+            <p>
+              Contributions are evaluated automatically through GitHub activity.
+              The scoring is calculated as follows:
+            </p>
+
+            <ul className="space-y-2 list-disc list-inside">
+              <li>Each Issue (Open or Closed) → <span className="text-indigo-400 font-bold">1 Point</span></li>
+              <li>Each Pull Request (Merged or Open) → <span className="text-pink-400 font-bold">1 Point</span></li>
+              <li>Contributions across multiple repositories increase visibility</li>
+              <li>Spam or invalid contributions will be disqualified</li>
+            </ul>
+
+            <p className="text-xs opacity-60">
+              Final leaderboard positions may be curated by the organizing team to ensure fairness.
+            </p>
+          </div>
+        </section>
+
       </div>
     </div>
   );
