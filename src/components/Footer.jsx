@@ -1,3 +1,4 @@
+
 function Footer() {
   return (
     <footer className="mt-0 bg-slate-900/80 border-t border-white/10">
