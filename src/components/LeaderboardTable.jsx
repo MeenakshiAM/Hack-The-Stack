@@ -34,7 +34,7 @@ function LeaderboardTable({ data }) {
   }, []);
 
   return (
-    <div className="w-full max-w-6xl mx-auto bg-white/5 backdrop-blur-2xl rounded-2xl md:rounded-3xl border border-gray-600 p-4 md:p-6 shadow-2xl">
+    <div className=" w-full max-w-6xl mx-auto bg-white/5 backdrop-blur-2xl rounded-2xl md:rounded-3xl border border-gray-600 p-4 md:p-6 shadow-2xl">
 
       {/* Header */}
       <div className="mb-4 md:mb-6 text-center md:text-left">
