@@ -19,7 +19,7 @@ function About() {
 
         {/* About the Event */}
         <section className="space-y-6">
-          <h2 className="text-2xl font-bold text-indigo-400">🌟 About the Event</h2>
+          <h2 className="text-2xl font-bold text-indigo-400"> About the Event</h2>
           <p className="leading-relaxed text-slate-300">
             Hack the Stack is a beginner-friendly open source contribution program
             designed exclusively for students.
@@ -37,7 +37,7 @@ function About() {
 
         {/* Objective */}
         <section className="space-y-6">
-          <h2 className="text-2xl font-bold text-teal-400">🎯 Objective</h2>
+          <h2 className="text-2xl font-bold text-teal-400"> Objective</h2>
           <ul className="list-disc list-inside space-y-2 text-slate-300">
             <li>Introduce students to open source culture</li>
             <li>Teach real-world contribution workflows</li>
@@ -52,7 +52,7 @@ function About() {
 
         {/* How It Works */}
         <section className="space-y-6">
-          <h2 className="text-2xl font-bold text-cyan-400">⚙️ How It Works</h2>
+          <h2 className="text-2xl font-bold text-cyan-400"> How It Works</h2>
           <ol className="list-decimal list-inside space-y-2 text-slate-300">
             <li>Register for the program.</li>
             <li>Get access to curated beginner-friendly repositories.</li>
@@ -66,7 +66,7 @@ function About() {
 
         {/* What Participants Will Learn */}
         <section className="space-y-6">
-          <h2 className="text-2xl font-bold text-indigo-400">📚 What Participants Will Learn</h2>
+          <h2 className="text-2xl font-bold text-indigo-400"> What Participants Will Learn</h2>
           <ul className="list-disc list-inside space-y-2 text-slate-300">
             <li>Git & GitHub basics</li>
             <li>Forking & Pull Requests</li>
@@ -79,7 +79,7 @@ function About() {
 
         {/* Evaluation & Recognition */}
         <section className="space-y-6">
-          <h2 className="text-2xl font-bold text-teal-400">🏆 Evaluation & Recognition</h2>
+          <h2 className="text-2xl font-bold text-teal-400"> Evaluation & Recognition</h2>
           <p className="text-slate-300 font-semibold">Participants will be evaluated based on:</p>
           <ul className="list-disc list-inside space-y-2 text-slate-300">
             <li>Quality of contributions</li>
@@ -91,15 +91,15 @@ function About() {
 
           <p className="text-slate-300 font-semibold mt-4">Top contributors will receive:</p>
           <ul className="space-y-2 text-slate-300">
-            <li>🥇 Certificates of Excellence</li>
-            <li>🏅 Recognition on Leaderboard</li>
-            <li>🎁 Special Prizes for winners</li>
+            <li> Certificates of Excellence</li>
+            <li> Recognition on Leaderboard</li>
+            <li> Special Prizes for winners</li>
           </ul>
         </section>
 
         {/* Who Can Participate */}
         <section className="space-y-6">
-          <h2 className="text-2xl font-bold text-cyan-400">👩‍💻 Who Can Participate?</h2>
+          <h2 className="text-2xl font-bold text-cyan-400"> Who Can Participate?</h2>
           <ul className="list-disc list-inside space-y-2 text-slate-300">
             <li>Students affiliated under APJ Abdul Kalam Technological University (KTU)</li>
             <li>Beginners to open source</li>
@@ -112,7 +112,7 @@ function About() {
 
         {/* Event Structure */}
         <section className="space-y-6">
-          <h2 className="text-2xl font-bold text-indigo-400">📅 Event Structure</h2>
+          <h2 className="text-2xl font-bold text-indigo-400"> Event Structure</h2>
           <ul className="list-disc list-inside space-y-2 text-slate-300">
             <li>Contribution Phase (20th Feb – 13th Mar)</li>
             <li>Mid-checkpoint Review</li>
@@ -123,7 +123,7 @@ function About() {
 
         {/* Why Hack the Stack */}
         <section className="space-y-6">
-          <h2 className="text-2xl font-bold text-teal-400">💬 Why Hack the Stack?</h2>
+          <h2 className="text-2xl font-bold text-teal-400"> Why Hack the Stack?</h2>
           <ul className="list-disc list-inside space-y-2 text-slate-300">
             <li>Open source builds credibility</li>
             <li>Recruiters value contribution history</li>
@@ -138,7 +138,7 @@ function About() {
 
         {/* Vision */}
         <section className="space-y-6">
-          <h2 className="text-2xl font-bold text-cyan-400">⚡ Vision</h2>
+          <h2 className="text-2xl font-bold text-cyan-400"> Vision</h2>
           <p className="leading-relaxed text-slate-300">
             Hack the Stack aims to create a strong open source culture within students
             and empower them to confidently contribute beyond campus to global projects.
