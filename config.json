@@ -1,12 +1,23 @@
 {
   "eventName": "Hack The Stack",
-  "startDate": "2025-01-01T00:00:00Z",
-  "endDate": "2025-02-28T23:59:59Z",
+  "startDate": "2026-02-20T18:00:00Z",
+  "endDate": "2026-03-13T23:59:59Z",
   "repositories": [
     "FOSSCLUB-LBSITW/Silly-Story-Generator",
     "FOSSCLUB-LBSITW/Memory-block-game",
     "FOSSCLUB-LBSITW/flappy-bird",
-    "FOSSCLUB-LBSITW/Typing-Test"
+    "FOSSCLUB-LBSITW/Typing-Test",
+    "FOSSCLUB-LBSITW/calculator_hts",
+    "FOSSCLUB-LBSITW/slot_machine_hts",
+    "FOSSCLUB-LBSITW/sudoku_hts",
+    "FOSSCLUB-LBSITW/tic-tac-toe",
+    "FOSSCLUB-LBSITW/to-do-list",
+    "FOSSCLUB-LBSITW/recipie-page",
+    "MeenakshiAM/KTN-Know-The-News...-",
+    "Sareenabs/Hach_the_stack_Cozy_Crumbs",
+    "NimaMaria/My-Calendar",
+    "rspavithra/NOTESTACK",
+    "FOSSCLUB-LBSITW/rock_paper_scissors"
   ],
   "points": {
     "good first issue": 5,
@@ -18,6 +29,5 @@
     "level-1": 10,
     "level-2": 15,
     "level-3": 20
-
   }
 }

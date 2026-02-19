@@ -13,7 +13,7 @@ function About() {
           </p>
           <p className="text-sm text-slate-500">
             Mode : Online <br />
-            Duration : 13 Feb 2026 - 20 March 2026
+            Duration : 20 Feb 2026 - 13 March 2026
           </p>
         </div>
 
