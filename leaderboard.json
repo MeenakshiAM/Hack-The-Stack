@@ -1,9 +1,9 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-02-20T18:29:24.822Z",
-  "totalParticipants": 5,
+  "lastUpdated": "2026-02-20T18:47:52.124Z",
+  "totalParticipants": 9,
   "totalPRsCounted": 0,
-  "totalIssuesCounted": 6,
+  "totalIssuesCounted": 15,
   "reposTracked": 16,
   "scoringRules": {
     "good first issue": 5,
@@ -22,6 +22,15 @@
   "leaderboard": [
     {
       "rank": 1,
+      "username": "adithyen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/190613817?v=4",
+      "score": 12,
+      "totalPRs": 0,
+      "totalIssues": 4,
+      "reposContributed": 2
+    },
+    {
+      "rank": 2,
       "username": "diya-git",
       "avatarUrl": "https://avatars.githubusercontent.com/u/172301017?v=4",
       "score": 6,
@@ -30,16 +39,25 @@
       "reposContributed": 2
     },
     {
-      "rank": 2,
-      "username": "adithyen",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/190613817?v=4",
-      "score": 3,
+      "rank": 3,
+      "username": "snehaelzadavid06",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/196425935?v=4",
+      "score": 6,
       "totalPRs": 0,
-      "totalIssues": 1,
+      "totalIssues": 2,
       "reposContributed": 1
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "username": "Haripriya-M619",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/196305487?v=4",
+      "score": 6,
+      "totalPRs": 0,
+      "totalIssues": 2,
+      "reposContributed": 2
+    },
+    {
+      "rank": 5,
       "username": "irisxvii",
       "avatarUrl": "https://avatars.githubusercontent.com/u/140954119?u=638fa2d40c2b61b9c0886aeb19d18c057eaf1cec&v=4",
       "score": 3,
@@ -48,7 +66,7 @@
       "reposContributed": 1
     },
     {
-      "rank": 4,
+      "rank": 6,
       "username": "vaishnavi783",
       "avatarUrl": "https://avatars.githubusercontent.com/u/184899243?u=aceec1c409478fefa165443984069d696605555e&v=4",
       "score": 3,
@@ -57,7 +75,25 @@
       "reposContributed": 1
     },
     {
-      "rank": 5,
+      "rank": 7,
+      "username": "Rithika1214",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/196407980?v=4",
+      "score": 3,
+      "totalPRs": 0,
+      "totalIssues": 1,
+      "reposContributed": 1
+    },
+    {
+      "rank": 8,
+      "username": "Gouri-web",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/194806821?v=4",
+      "score": 3,
+      "totalPRs": 0,
+      "totalIssues": 1,
+      "reposContributed": 1
+    },
+    {
+      "rank": 9,
       "username": "DIYA-BHATT29",
       "avatarUrl": "https://avatars.githubusercontent.com/u/149696438?u=8b64376816d9669e2a9be8b6db0e9137c851c8bf&v=4",
       "score": 3,
