@@ -1,10 +1,10 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-02-20T02:37:14.873Z",
+  "lastUpdated": "2026-02-20T07:04:34.086Z",
   "totalParticipants": 0,
   "totalPRsCounted": 0,
   "totalIssuesCounted": 0,
-  "reposTracked": 15,
+  "reposTracked": 16,
   "scoringRules": {
     "good first issue": 5,
     "documentation": 5,
@@ -14,7 +14,10 @@
     "issue": 3,
     "level-1": 10,
     "level-2": 15,
-    "level-3": 20
+    "level-3": 20,
+    "Level-1": 10,
+    "Level-2": 15,
+    "Level-3": 20
   },
   "leaderboard": []
 }
