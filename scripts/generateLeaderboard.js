@@ -77,7 +77,16 @@ function isExcludedUser(username) {
   return config.excludedUsers?.includes(username);
 }
 
+function hasHackTheStackLabel(labels = []) {
+  const labelNames = labels.map(l => l.name.toLowerCase());
+  return labelNames.includes("hackthestack");
+}
+
 function calculatePRPoints(pr) {
+  const labels = pr.labels?.nodes || [];
+
+  // MUST have HackTheStack label
+  if (!hasHackTheStackLabel(labels)) return 0;
   // Just raising PR → 5 points
   if (pr.state === "OPEN" || pr.state === "CLOSED") {
     return 5;
@@ -102,6 +111,10 @@ function calculatePRPoints(pr) {
 }
 
 function calculateIssuePoints() {
+  const labels = issue.labels?.nodes || [];
+
+  if (!hasHackTheStackLabel(labels)) return 0;
+  
   return config.points.issue || 0;
 }
 
