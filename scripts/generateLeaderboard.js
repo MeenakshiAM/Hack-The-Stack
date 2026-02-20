@@ -77,7 +77,7 @@ function calculatePoints(labels = [], isIssue = false) {
   const labelNames = labels.map(l => l.name.toLowerCase());
 
   // Must have hack the stack label
-  //if (!labelNames.includes("hack the stack")) return 0;
+  if (!labelNames.includes("HackTheStack")) return 0;
 
   if (isIssue) {
     return config.points.issue || 0;

@@ -17,7 +17,8 @@
     "Sareenabs/Hach_the_stack_Cozy_Crumbs",
     "NimaMaria/My-Calendar",
     "rspavithra/NOTESTACK",
-    "FOSSCLUB-LBSITW/rock_paper_scissors"
+    "FOSSCLUB-LBSITW/rock_paper_scissors",
+    "UttaraPraveen/Imposter-Game"
   ],
   "points": {
     "good first issue": 5,
@@ -28,6 +29,9 @@
     "issue": 3,
     "level-1": 10,
     "level-2": 15,
-    "level-3": 20
+    "level-3": 20,
+    "Level-1": 10,
+    "Level-2":15,
+    "Level-3": 20
   }
 }
