@@ -38,7 +38,7 @@ async function fetchRepoData(owner, name) {
           nodes {
             id
             createdAt
-            author { login avatarUrl}
+            author { login avatarUrl }
             labels(first: 20) {
               nodes { name }
             }
@@ -49,13 +49,12 @@ async function fetchRepoData(owner, name) {
           nodes {
             id
             closedAt
-            author { login avatarUrl}
+            author { login avatarUrl }
             labels(first: 20) {
               nodes { name }
             }
           }
         }
-
       }
     }
   `;
@@ -85,16 +84,16 @@ function hasHackTheStackLabel(labels = []) {
 function calculatePRPoints(pr) {
   const labels = pr.labels?.nodes || [];
 
-  // MUST have HackTheStack label
+  // Must have HackTheStack label
   if (!hasHackTheStackLabel(labels)) return 0;
-  // Just raising PR → 5 points
+
+  // OPEN or CLOSED (not merged) → 5 points
   if (pr.state === "OPEN" || pr.state === "CLOSED") {
     return 5;
   }
 
-  // If merged → calculate based on highest level label
+  // MERGED → level-based scoring
   if (pr.state === "MERGED") {
-    const labels = pr.labels?.nodes || [];
     const labelNames = labels.map(l => l.name.toLowerCase());
 
     let maxPoints = 0;
@@ -110,11 +109,12 @@ function calculatePRPoints(pr) {
   return 0;
 }
 
-function calculateIssuePoints() {
+function calculateIssuePoints(issue) {
   const labels = issue.labels?.nodes || [];
 
+  // Must have HackTheStack label
   if (!hasHackTheStackLabel(labels)) return 0;
-  
+
   return config.points.issue || 0;
 }
 
@@ -132,9 +132,7 @@ async function main() {
     const openIssues = data.repository.openIssues.nodes;
     const closedIssues = data.repository.closedIssues.nodes;
 
-    // =========================
-    // PROCESS PRs
-    // =========================
+    // ================= PRs =================
     for (const pr of prs) {
       let relevantDate = null;
 
@@ -171,9 +169,7 @@ async function main() {
       totalPRsCounted += 1;
     }
 
-    // =========================
-    // PROCESS OPEN ISSUES
-    // =========================
+    // ================= OPEN ISSUES =================
     for (const issue of openIssues) {
       if (countedIssueIds.has(issue.id)) continue;
       if (!isWithinEvent(issue.createdAt)) continue;
@@ -181,7 +177,7 @@ async function main() {
       const user = issue.author?.login;
       if (!user || isExcludedUser(user)) continue;
 
-      const points = calculateIssuePoints();
+      const points = calculateIssuePoints(issue);
       if (!points) continue;
 
       if (!leaderboard[user]) {
@@ -202,9 +198,7 @@ async function main() {
       totalIssuesCounted += 1;
     }
 
-    // =========================
-    // PROCESS CLOSED ISSUES
-    // =========================
+    // ================= CLOSED ISSUES =================
     for (const issue of closedIssues) {
       if (countedIssueIds.has(issue.id)) continue;
       if (!isWithinEvent(issue.closedAt)) continue;
@@ -212,7 +206,7 @@ async function main() {
       const user = issue.author?.login;
       if (!user || isExcludedUser(user)) continue;
 
-      const points = calculateIssuePoints();
+      const points = calculateIssuePoints(issue);
       if (!points) continue;
 
       if (!leaderboard[user]) {
