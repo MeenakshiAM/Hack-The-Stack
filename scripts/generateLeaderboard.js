@@ -5,7 +5,7 @@ const config = require("../config.json");
 const token = process.env.HACK_THE_STACK_TOKEN;
 
 if (!token) {
-  console.error(" Missing HACK_THE_STACK_TOKEN");
+  console.error("Missing HACK_THE_STACK_TOKEN");
   process.exit(1);
 }
 
@@ -73,25 +73,36 @@ function isWithinEvent(date) {
   );
 }
 
-function calculatePoints(labels = [], isIssue = false) {
-  const labelNames = labels.map(l => l.name.toLowerCase());
+function isExcludedUser(username) {
+  return config.excludedUsers?.includes(username);
+}
 
-  // Must have hack the stack label
-  //if (!labelNames.includes("HackTheStack")) return 0;
-
-  if (isIssue) {
-    return config.points.issue || 0;
+function calculatePRPoints(pr) {
+  // Just raising PR → 5 points
+  if (pr.state === "OPEN" || pr.state === "CLOSED") {
+    return 5;
   }
 
-  // PR scoring based on highest level label
-  let maxPoints = 0;
-  for (const label of labelNames) {
-    if (config.points[label]) {
-      maxPoints = Math.max(maxPoints, config.points[label]);
+  // If merged → calculate based on highest level label
+  if (pr.state === "MERGED") {
+    const labels = pr.labels?.nodes || [];
+    const labelNames = labels.map(l => l.name.toLowerCase());
+
+    let maxPoints = 0;
+    for (const label of labelNames) {
+      if (config.points[label]) {
+        maxPoints = Math.max(maxPoints, config.points[label]);
+      }
     }
+
+    return maxPoints;
   }
 
-  return maxPoints;
+  return 0;
+}
+
+function calculateIssuePoints() {
+  return config.points.issue || 0;
 }
 
 async function main() {
@@ -108,9 +119,9 @@ async function main() {
     const openIssues = data.repository.openIssues.nodes;
     const closedIssues = data.repository.closedIssues.nodes;
 
-    // -------------------------
-    // PROCESS ALL PR STATES
-    // -------------------------
+    // =========================
+    // PROCESS PRs
+    // =========================
     for (const pr of prs) {
       let relevantDate = null;
 
@@ -124,11 +135,11 @@ async function main() {
 
       if (!isWithinEvent(relevantDate)) continue;
 
-      const points = calculatePoints(pr.labels?.nodes || []);
-      if (!points) continue;
-
       const user = pr.author?.login;
-      if (!user) continue;
+      if (!user || isExcludedUser(user)) continue;
+
+      const points = calculatePRPoints(pr);
+      if (!points) continue;
 
       if (!leaderboard[user]) {
         leaderboard[user] = {
@@ -147,18 +158,18 @@ async function main() {
       totalPRsCounted += 1;
     }
 
-    // -------------------------
+    // =========================
     // PROCESS OPEN ISSUES
-    // -------------------------
+    // =========================
     for (const issue of openIssues) {
       if (countedIssueIds.has(issue.id)) continue;
       if (!isWithinEvent(issue.createdAt)) continue;
 
-      const points = calculatePoints(issue.labels?.nodes || [], true);
-      if (!points) continue;
-
       const user = issue.author?.login;
-      if (!user) continue;
+      if (!user || isExcludedUser(user)) continue;
+
+      const points = calculateIssuePoints();
+      if (!points) continue;
 
       if (!leaderboard[user]) {
         leaderboard[user] = {
@@ -167,7 +178,6 @@ async function main() {
           totalIssues: 0,
           repos: new Set(),
           avatarUrl: issue.author?.avatarUrl || null
-
         };
       }
 
@@ -179,18 +189,18 @@ async function main() {
       totalIssuesCounted += 1;
     }
 
-    // -------------------------
+    // =========================
     // PROCESS CLOSED ISSUES
-    // -------------------------
+    // =========================
     for (const issue of closedIssues) {
       if (countedIssueIds.has(issue.id)) continue;
       if (!isWithinEvent(issue.closedAt)) continue;
 
-      const points = calculatePoints(issue.labels?.nodes || [], true);
-      if (!points) continue;
-
       const user = issue.author?.login;
-      if (!user) continue;
+      if (!user || isExcludedUser(user)) continue;
+
+      const points = calculateIssuePoints();
+      if (!points) continue;
 
       if (!leaderboard[user]) {
         leaderboard[user] = {
@@ -220,7 +230,6 @@ async function main() {
       totalIssues: stats.totalIssues,
       reposContributed: stats.repos.size
     }))
-
     .sort((a, b) => b.score - a.score)
     .map((user, index) => ({
       rank: index + 1,
@@ -241,7 +250,7 @@ async function main() {
     }, null, 2)
   );
 
-  console.log(" Leaderboard generated successfully.");
+  console.log("Leaderboard generated successfully.");
 }
 
 main();

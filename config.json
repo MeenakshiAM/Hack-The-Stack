@@ -20,6 +20,14 @@
     "FOSSCLUB-LBSITW/rock_paper_scissors",
     "UttaraPraveen/Imposter-Game"
   ],
+  "excludedUsers": [
+  "MeenakshiAM",
+  "FOSSCLUB-LBSITW",
+  "UttaraPraveen",
+  "rspavithra",
+  "Sareenabs"
+
+],
   "points": {
     "good first issue": 5,
     "documentation": 5,
