@@ -1,9 +1,9 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-02-20T18:10:15.105Z",
-  "totalParticipants": 4,
+  "lastUpdated": "2026-02-20T18:29:24.822Z",
+  "totalParticipants": 5,
   "totalPRsCounted": 0,
-  "totalIssuesCounted": 5,
+  "totalIssuesCounted": 6,
   "reposTracked": 16,
   "scoringRules": {
     "good first issue": 5,
@@ -51,6 +51,15 @@
       "rank": 4,
       "username": "vaishnavi783",
       "avatarUrl": "https://avatars.githubusercontent.com/u/184899243?u=aceec1c409478fefa165443984069d696605555e&v=4",
+      "score": 3,
+      "totalPRs": 0,
+      "totalIssues": 1,
+      "reposContributed": 1
+    },
+    {
+      "rank": 5,
+      "username": "DIYA-BHATT29",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/149696438?u=8b64376816d9669e2a9be8b6db0e9137c851c8bf&v=4",
       "score": 3,
       "totalPRs": 0,
       "totalIssues": 1,
