@@ -83,14 +83,20 @@ export default function RulesRegulations() {
 
     let displayText = "";
 
-    if (lower === "pr-created") {
+    if (lower === "issue") {
+      displayText = "Issue Creation";
+    } 
+    else if (lower === "pr-created") {
       displayText = "PR Created";
-    } else if (lower === "issue") {
-      displayText = "Issue Created";
-    } else if (lower.includes("level")) {
+    } 
+    else if (lower === "good first issue") {
+      displayText = "Merged (Good First Issue)";
+    } 
+    else if (lower === "documentation") {
+      displayText = "Merged (Documentation)";
+    } 
+    else if (lower.includes("level")) {
       displayText = `PR Merged (${label.toUpperCase()})`;
-    } else {
-      displayText = label.replace(/-/g, " ");
     }
 
     return (
