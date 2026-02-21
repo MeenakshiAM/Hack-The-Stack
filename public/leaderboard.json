@@ -1,6 +1,6 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-02-21T08:50:55.030Z",
+  "lastUpdated": "2026-02-21T09:03:21.507Z",
   "totalParticipants": 18,
   "totalPRsCounted": 11,
   "totalIssuesCounted": 50,
@@ -25,7 +25,7 @@
       "rank": 1,
       "username": "adithyen",
       "avatarUrl": "https://avatars.githubusercontent.com/u/190613817?v=4",
-      "score": 56,
+      "score": 66,
       "totalPRs": 2,
       "totalIssues": 12,
       "reposContributed": 5
@@ -34,7 +34,7 @@
       "rank": 2,
       "username": "alkadevii",
       "avatarUrl": "https://avatars.githubusercontent.com/u/110056403?u=c87dbdec99b2139e7f30003be8e584946dfd7518&v=4",
-      "score": 48,
+      "score": 58,
       "totalPRs": 3,
       "totalIssues": 6,
       "reposContributed": 4
@@ -52,13 +52,31 @@
       "rank": 4,
       "username": "SAMYUKTHASRR",
       "avatarUrl": "https://avatars.githubusercontent.com/u/166145174?u=9e7c70d549c34acf3d98490193ec8e4c9e362af5&v=4",
-      "score": 21,
+      "score": 26,
       "totalPRs": 1,
       "totalIssues": 2,
       "reposContributed": 2
     },
     {
       "rank": 5,
+      "username": "diya-git",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/172301017?v=4",
+      "score": 16,
+      "totalPRs": 1,
+      "totalIssues": 2,
+      "reposContributed": 2
+    },
+    {
+      "rank": 6,
+      "username": "Haripriya-M619",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/196305487?v=4",
+      "score": 16,
+      "totalPRs": 1,
+      "totalIssues": 2,
+      "reposContributed": 2
+    },
+    {
+      "rank": 7,
       "username": "ShreyaLbs",
       "avatarUrl": "https://avatars.githubusercontent.com/u/197217172?u=92b008eb1a6c01c954538289fb16ef41e129f847&v=4",
       "score": 16,
@@ -67,31 +85,13 @@
       "reposContributed": 1
     },
     {
-      "rank": 6,
+      "rank": 8,
       "username": "hashimiryhaan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/166027617?u=69cca06358b59f2cbdc6827518d75ee8a8a887d0&v=4",
       "score": 12,
       "totalPRs": 0,
       "totalIssues": 4,
       "reposContributed": 1
-    },
-    {
-      "rank": 7,
-      "username": "diya-git",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/172301017?v=4",
-      "score": 11,
-      "totalPRs": 1,
-      "totalIssues": 2,
-      "reposContributed": 2
-    },
-    {
-      "rank": 8,
-      "username": "Haripriya-M619",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/196305487?v=4",
-      "score": 11,
-      "totalPRs": 1,
-      "totalIssues": 2,
-      "reposContributed": 2
     },
     {
       "rank": 9,
