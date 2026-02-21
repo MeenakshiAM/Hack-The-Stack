@@ -85,26 +85,28 @@ function hasHackTheStackLabel(labels = []) {
 function calculatePRPoints(pr) {
   const labels = pr.labels?.nodes || [];
 
-  // Must have HackTheStack label
   if (!hasHackTheStackLabel(labels)) return 0;
 
-  // If PR is merged → level-based scoring
+  // Base points for PR creation
+  let points = 5;
+
+  // If merged → add highest level points
   if (pr.mergedAt) {
     const labelNames = labels.map(l => l.name.toLowerCase());
 
-    let maxPoints = 0;
+    let maxLevelPoints = 0;
+
     for (const label of labelNames) {
       if (config.points[label]) {
-        maxPoints = Math.max(maxPoints, config.points[label]);
+        maxLevelPoints = Math.max(maxLevelPoints, config.points[label]);
       }
     }
 
-    return maxPoints;
+    points += maxLevelPoints;
   }
 
-  // If PR is NOT merged (open or closed without merge)
-  return 5;
-  }
+  return points;
+}
 
 
 
