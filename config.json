@@ -1,7 +1,7 @@
 {
   "eventName": "Hack The Stack",
   "startDate": "2026-02-20T00:00:00Z",
-  "endDate": "2026-03-13T23:59:59Z",
+  "endDate": "2026-03-14T23:59:59Z",
   "repositories": [
     "FOSSCLUB-LBSITW/Silly-Story-Generator",
     "FOSSCLUB-LBSITW/Memory-block-game",
@@ -18,7 +18,8 @@
     "NimaMaria/My-Calendar",
     "rspavithra/NOTESTACK",
     "FOSSCLUB-LBSITW/rock_paper_scissors",
-    "UttaraPraveen/Imposter-Game"
+    "UttaraPraveen/Imposter-Game",
+    "MeenakshiAM/Expense-Tracker"
   ],
   "excludedUsers": [
   "MeenakshiAM",
@@ -31,6 +32,7 @@
 
 ],
   "points": {
+    "pr-created": 5,
     "good first issue": 5,
     "documentation": 5,
     "level1": 10,

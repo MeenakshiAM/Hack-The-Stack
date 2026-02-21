@@ -48,6 +48,7 @@ async function fetchRepoData(owner, name) {
         closedIssues: issues(first: 100, states: CLOSED) {
           nodes {
             id
+            createdAt
             closedAt
             author { login avatarUrl }
             labels(first: 20) {
@@ -87,13 +88,8 @@ function calculatePRPoints(pr) {
   // Must have HackTheStack label
   if (!hasHackTheStackLabel(labels)) return 0;
 
-  // OPEN or CLOSED (not merged) → 5 points
-  if (pr.state === "OPEN" || pr.state === "CLOSED") {
-    return 5;
-  }
-
-  // MERGED → level-based scoring
-  if (pr.state === "MERGED") {
+  // If PR is merged → level-based scoring
+  if (pr.mergedAt) {
     const labelNames = labels.map(l => l.name.toLowerCase());
 
     let maxPoints = 0;
@@ -106,8 +102,11 @@ function calculatePRPoints(pr) {
     return maxPoints;
   }
 
-  return 0;
-}
+  // If PR is NOT merged (open or closed without merge)
+  return 5;
+  }
+
+
 
 function calculateIssuePoints(issue) {
   const labels = issue.labels?.nodes || [];

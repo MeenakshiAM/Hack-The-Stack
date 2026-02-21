@@ -78,15 +78,22 @@ export default function RulesRegulations() {
   </div>
 
   <ul className="space-y-3 text-slate-300 text-sm md:text-base">
-    {Object.entries(points).map(([label, value]) => (
-      <li key={label} className="flex justify-between">
-        <span className="capitalize">{label}</span>
-        <span className="font-semibold text-indigo-400">
-          {value} pts
-        </span>
-      </li>
-    ))}
-  </ul>
+  {Object.entries(points).map(([label, value]) => (
+    <li key={label} className="flex justify-between">
+      <span>
+        {label === "pr-created"
+          ? "PR Created"
+          : label === "issue"
+          ? "Issue Created"
+          : `Merged (${label.toUpperCase()})`}
+      </span>
+
+      <span className="font-semibold text-indigo-400">
+        {value} pts
+      </span>
+    </li>
+  ))}
+</ul>
 </section>
 
       </div>
