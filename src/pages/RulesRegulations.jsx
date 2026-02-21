@@ -77,22 +77,31 @@ export default function RulesRegulations() {
     </h2>
   </div>
 
-  <ul className="space-y-3 text-slate-300 text-sm md:text-base">
-  {Object.entries(points).map(([label, value]) => (
-    <li key={label} className="flex justify-between">
-      <span>
-        {label === "pr-created"
-          ? "PR Created"
-          : label === "issue"
-          ? "Issue Created"
-          : `Merged (${label.toUpperCase()})`}
-      </span>
+ <ul className="space-y-3 text-slate-300 text-sm md:text-base">
+  {Object.entries(points).map(([label, value]) => {
+    const lower = label.toLowerCase();
 
-      <span className="font-semibold text-indigo-400">
-        {value} pts
-      </span>
-    </li>
-  ))}
+    let displayText = "";
+
+    if (lower === "pr-created") {
+      displayText = "PR Created";
+    } else if (lower === "issue") {
+      displayText = "Issue Created";
+    } else if (lower.includes("level")) {
+      displayText = `PR Merged (${label.toUpperCase()})`;
+    } else {
+      displayText = label.replace(/-/g, " ");
+    }
+
+    return (
+      <li key={label} className="flex justify-between">
+        <span>{displayText}</span>
+        <span className="font-semibold text-indigo-400">
+          {value} pts
+        </span>
+      </li>
+    );
+  })}
 </ul>
 </section>
 
