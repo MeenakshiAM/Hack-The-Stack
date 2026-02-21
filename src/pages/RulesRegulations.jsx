@@ -102,12 +102,19 @@ export default function RulesRegulations() {
     }
 
     return (
+      <>
+      {/* <li className="flex justify-between"><span>PR - creation</span>
+        <span className="font-semibold text-indigo-400">
+          5 pts
+        </span>
+        </li> */}
       <li key={label} className="flex justify-between">
         <span>{displayText}</span>
         <span className="font-semibold text-indigo-400">
           {value} pts
         </span>
       </li>
+      </>
     );
   })}
 </ul>
