@@ -81,19 +81,21 @@ export default function RulesRegulations() {
   {Object.entries(points).map(([label, value]) => {
     const lower = label.toLowerCase();
 
-    let displayText = "";
+    let displayText = "Issue Creation";
 
     if (lower === "issue") {
       displayText = "Issue Creation";
     } 
     else if (lower === "pr-created") {
+      console.log("working pr");
       displayText = "PR Created";
     } 
     else if (lower === "good first issue") {
-      displayText = "Merged (Good First Issue)";
+      displayText = "PR Merged (Good First Issue)";
     } 
     else if (lower === "documentation") {
-      displayText = "Merged (Documentation)";
+       
+      displayText = "PR Merged (Documentation)";
     } 
     else if (lower.includes("level")) {
       displayText = `PR Merged (${label.toUpperCase()})`;
