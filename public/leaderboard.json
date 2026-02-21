@@ -1,9 +1,9 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-02-20T18:57:16.924Z",
+  "lastUpdated": "2026-02-21T02:19:34.283Z",
   "totalParticipants": 9,
-  "totalPRsCounted": 0,
-  "totalIssuesCounted": 15,
+  "totalPRsCounted": 1,
+  "totalIssuesCounted": 19,
   "reposTracked": 16,
   "scoringRules": {
     "good first issue": 5,
@@ -24,17 +24,17 @@
       "rank": 1,
       "username": "adithyen",
       "avatarUrl": "https://avatars.githubusercontent.com/u/190613817?v=4",
-      "score": 12,
+      "score": 21,
       "totalPRs": 0,
-      "totalIssues": 4,
-      "reposContributed": 2
+      "totalIssues": 7,
+      "reposContributed": 3
     },
     {
       "rank": 2,
-      "username": "diya-git",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/172301017?v=4",
-      "score": 6,
-      "totalPRs": 0,
+      "username": "Haripriya-M619",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/196305487?v=4",
+      "score": 11,
+      "totalPRs": 1,
       "totalIssues": 2,
       "reposContributed": 2
     },
@@ -42,15 +42,15 @@
       "rank": 3,
       "username": "snehaelzadavid06",
       "avatarUrl": "https://avatars.githubusercontent.com/u/196425935?v=4",
-      "score": 6,
+      "score": 9,
       "totalPRs": 0,
-      "totalIssues": 2,
+      "totalIssues": 3,
       "reposContributed": 1
     },
     {
       "rank": 4,
-      "username": "Haripriya-M619",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/196305487?v=4",
+      "username": "diya-git",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/172301017?v=4",
       "score": 6,
       "totalPRs": 0,
       "totalIssues": 2,
