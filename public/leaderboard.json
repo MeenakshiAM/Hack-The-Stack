@@ -1,9 +1,9 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-02-22T09:37:36.524Z",
+  "lastUpdated": "2026-02-22T09:46:19.790Z",
   "totalParticipants": 33,
-  "totalPRsCounted": 77,
-  "totalIssuesCounted": 176,
+  "totalPRsCounted": 78,
+  "totalIssuesCounted": 179,
   "reposTracked": 18,
   "scoringRules": {
     "pr-created": 5,
@@ -25,8 +25,8 @@
       "rank": 1,
       "username": "ShreyaLbs",
       "avatarUrl": "https://avatars.githubusercontent.com/u/197217172?u=92b008eb1a6c01c954538289fb16ef41e129f847&v=4",
-      "score": 187,
-      "totalPRs": 11,
+      "score": 192,
+      "totalPRs": 12,
       "totalIssues": 19,
       "reposContributed": 11
     },
@@ -41,6 +41,15 @@
     },
     {
       "rank": 3,
+      "username": "AditiBS",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/196641187?v=4",
+      "score": 152,
+      "totalPRs": 10,
+      "totalIssues": 14,
+      "reposContributed": 9
+    },
+    {
+      "rank": 4,
       "username": "riyaannjijo",
       "avatarUrl": "https://avatars.githubusercontent.com/u/197216911?u=769bafce944092c4b6e11db47f6f30f962197c21&v=4",
       "score": 149,
@@ -49,21 +58,12 @@
       "reposContributed": 4
     },
     {
-      "rank": 4,
-      "username": "AditiBS",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/196641187?v=4",
-      "score": 146,
-      "totalPRs": 10,
-      "totalIssues": 12,
-      "reposContributed": 8
-    },
-    {
       "rank": 5,
       "username": "alkadevii",
       "avatarUrl": "https://avatars.githubusercontent.com/u/110056403?u=c87dbdec99b2139e7f30003be8e584946dfd7518&v=4",
-      "score": 138,
+      "score": 141,
       "totalPRs": 8,
-      "totalIssues": 11,
+      "totalIssues": 12,
       "reposContributed": 5
     },
     {
