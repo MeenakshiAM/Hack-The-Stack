@@ -1,9 +1,9 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-02-23T13:18:59.011Z",
+  "lastUpdated": "2026-02-23T19:12:15.037Z",
   "totalParticipants": 41,
-  "totalPRsCounted": 121,
-  "totalIssuesCounted": 246,
+  "totalPRsCounted": 147,
+  "totalIssuesCounted": 251,
   "reposTracked": 18,
   "scoringRules": {
     "pr-created": 5,
@@ -25,13 +25,22 @@
       "rank": 1,
       "username": "ShreyaLbs",
       "avatarUrl": "https://avatars.githubusercontent.com/u/197217172?u=92b008eb1a6c01c954538289fb16ef41e129f847&v=4",
-      "score": 287,
-      "totalPRs": 19,
+      "score": 292,
+      "totalPRs": 20,
       "totalIssues": 19,
       "reposContributed": 11
     },
     {
       "rank": 2,
+      "username": "adithyen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/190613817?v=4",
+      "score": 254,
+      "totalPRs": 12,
+      "totalIssues": 43,
+      "reposContributed": 11
+    },
+    {
+      "rank": 3,
       "username": "alkadevii",
       "avatarUrl": "https://avatars.githubusercontent.com/u/110056403?u=c87dbdec99b2139e7f30003be8e584946dfd7518&v=4",
       "score": 224,
@@ -40,20 +49,11 @@
       "reposContributed": 5
     },
     {
-      "rank": 3,
-      "username": "adithyen",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/190613817?v=4",
-      "score": 202,
-      "totalPRs": 6,
-      "totalIssues": 39,
-      "reposContributed": 10
-    },
-    {
       "rank": 4,
       "username": "AditiBS",
       "avatarUrl": "https://avatars.githubusercontent.com/u/196641187?v=4",
-      "score": 199,
-      "totalPRs": 10,
+      "score": 209,
+      "totalPRs": 12,
       "totalIssues": 23,
       "reposContributed": 12
     },
@@ -70,35 +70,35 @@
       "rank": 6,
       "username": "zyndor1548",
       "avatarUrl": "https://avatars.githubusercontent.com/u/149249986?u=aebd89dfe19166468f828751eef9c283e6bc27ae&v=4",
-      "score": 132,
-      "totalPRs": 15,
+      "score": 142,
+      "totalPRs": 17,
       "totalIssues": 19,
       "reposContributed": 4
     },
     {
       "rank": 7,
-      "username": "hashimiryhaan",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/166027617?u=69cca06358b59f2cbdc6827518d75ee8a8a887d0&v=4",
-      "score": 97,
-      "totalPRs": 4,
-      "totalIssues": 14,
-      "reposContributed": 3
+      "username": "MTCodes01",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/108288413?u=9d353d991d60d44cb394c127a78a34ba30de64ef&v=4",
+      "score": 115,
+      "totalPRs": 8,
+      "totalIssues": 15,
+      "reposContributed": 4
     },
     {
       "rank": 8,
-      "username": "MTCodes01",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/108288413?u=9d353d991d60d44cb394c127a78a34ba30de64ef&v=4",
-      "score": 95,
-      "totalPRs": 7,
-      "totalIssues": 15,
-      "reposContributed": 4
+      "username": "hashimiryhaan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/166027617?u=69cca06358b59f2cbdc6827518d75ee8a8a887d0&v=4",
+      "score": 102,
+      "totalPRs": 5,
+      "totalIssues": 14,
+      "reposContributed": 3
     },
     {
       "rank": 9,
       "username": "snehaelzadavid06",
       "avatarUrl": "https://avatars.githubusercontent.com/u/196425935?v=4",
-      "score": 90,
-      "totalPRs": 5,
+      "score": 95,
+      "totalPRs": 6,
       "totalIssues": 10,
       "reposContributed": 5
     },
@@ -115,8 +115,8 @@
       "rank": 11,
       "username": "DIYA-BHATT29",
       "avatarUrl": "https://avatars.githubusercontent.com/u/149696438?u=8b64376816d9669e2a9be8b6db0e9137c851c8bf&v=4",
-      "score": 79,
-      "totalPRs": 5,
+      "score": 84,
+      "totalPRs": 6,
       "totalIssues": 8,
       "reposContributed": 6
     },
@@ -124,13 +124,22 @@
       "rank": 12,
       "username": "swathiiie",
       "avatarUrl": "https://avatars.githubusercontent.com/u/216184769?v=4",
-      "score": 70,
-      "totalPRs": 4,
+      "score": 75,
+      "totalPRs": 5,
       "totalIssues": 5,
       "reposContributed": 4
     },
     {
       "rank": 13,
+      "username": "alfiya-fathima",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/196206322?u=1965f9bb5864364ea2bafd1494b69a90b09e97d6&v=4",
+      "score": 65,
+      "totalPRs": 4,
+      "totalIssues": 10,
+      "reposContributed": 6
+    },
+    {
+      "rank": 14,
       "username": "Varshagp27",
       "avatarUrl": "https://avatars.githubusercontent.com/u/196236177?u=c56092ebb7b40acc158826b412bcd25c1216d59d&v=4",
       "score": 57,
@@ -139,49 +148,40 @@
       "reposContributed": 4
     },
     {
-      "rank": 14,
-      "username": "devikrishna111",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/169533815?v=4",
-      "score": 40,
-      "totalPRs": 2,
-      "totalIssues": 5,
-      "reposContributed": 3
-    },
-    {
       "rank": 15,
-      "username": "alfiya-fathima",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/196206322?u=1965f9bb5864364ea2bafd1494b69a90b09e97d6&v=4",
-      "score": 40,
-      "totalPRs": 1,
-      "totalIssues": 10,
-      "reposContributed": 6
-    },
-    {
-      "rank": 16,
       "username": "Niya2201",
       "avatarUrl": "https://avatars.githubusercontent.com/u/173976802?v=4",
-      "score": 37,
-      "totalPRs": 2,
+      "score": 57,
+      "totalPRs": 4,
       "totalIssues": 9,
       "reposContributed": 7
     },
     {
+      "rank": 16,
+      "username": "devikrishna111",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/169533815?v=4",
+      "score": 55,
+      "totalPRs": 5,
+      "totalIssues": 5,
+      "reposContributed": 3
+    },
+    {
       "rank": 17,
+      "username": "Parvathy-pp",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/182094754?v=4",
+      "score": 32,
+      "totalPRs": 3,
+      "totalIssues": 4,
+      "reposContributed": 4
+    },
+    {
+      "rank": 18,
       "username": "SAMYUKTHASRR",
       "avatarUrl": "https://avatars.githubusercontent.com/u/166145174?u=9e7c70d549c34acf3d98490193ec8e4c9e362af5&v=4",
       "score": 26,
       "totalPRs": 1,
       "totalIssues": 2,
       "reposContributed": 2
-    },
-    {
-      "rank": 18,
-      "username": "Parvathy-pp",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/182094754?v=4",
-      "score": 19,
-      "totalPRs": 1,
-      "totalIssues": 3,
-      "reposContributed": 3
     },
     {
       "rank": 19,
