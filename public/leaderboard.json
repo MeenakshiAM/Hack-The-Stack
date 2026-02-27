@@ -1,8 +1,8 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-02-27T02:35:33.388Z",
+  "lastUpdated": "2026-02-27T07:02:46.399Z",
   "totalParticipants": 45,
-  "totalPRsCounted": 204,
+  "totalPRsCounted": 206,
   "totalIssuesCounted": 357,
   "reposTracked": 20,
   "scoringRules": {
@@ -70,8 +70,8 @@
       "rank": 6,
       "username": "riyaannjijo",
       "avatarUrl": "https://avatars.githubusercontent.com/u/197216911?u=769bafce944092c4b6e11db47f6f30f962197c21&v=4",
-      "score": 192,
-      "totalPRs": 12,
+      "score": 197,
+      "totalPRs": 13,
       "totalIssues": 19,
       "reposContributed": 8
     },
@@ -302,6 +302,15 @@
     },
     {
       "rank": 32,
+      "username": "JyothiSriLakshmi-1305",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/173877378?u=68c4eae7294e2ca6bfcf836429769ba8eb4bb2c7&v=4",
+      "score": 8,
+      "totalPRs": 1,
+      "totalIssues": 1,
+      "reposContributed": 1
+    },
+    {
+      "rank": 33,
       "username": "Sanafathima-21",
       "avatarUrl": "https://avatars.githubusercontent.com/u/209233772?v=4",
       "score": 6,
@@ -310,7 +319,7 @@
       "reposContributed": 2
     },
     {
-      "rank": 33,
+      "rank": 34,
       "username": "mariatessa22",
       "avatarUrl": "https://avatars.githubusercontent.com/u/194927569?u=1f600b1453d81698d061a3a6d9f95b4cf8c6e0ac&v=4",
       "score": 6,
@@ -319,7 +328,7 @@
       "reposContributed": 1
     },
     {
-      "rank": 34,
+      "rank": 35,
       "username": "JohnMartin0301",
       "avatarUrl": "https://avatars.githubusercontent.com/u/112761826?u=5bc9a58474fc9ea02201046b2b8b8045e8d8ae6d&v=4",
       "score": 5,
@@ -328,7 +337,7 @@
       "reposContributed": 1
     },
     {
-      "rank": 35,
+      "rank": 36,
       "username": "hellboyOO7",
       "avatarUrl": "https://avatars.githubusercontent.com/u/121629275?u=a8c4e60c79e54a8ff36c7b08900e8fa49a8eb498&v=4",
       "score": 5,
@@ -337,7 +346,7 @@
       "reposContributed": 1
     },
     {
-      "rank": 36,
+      "rank": 37,
       "username": "REBECCAMARIAMEBBY27",
       "avatarUrl": "https://avatars.githubusercontent.com/u/178642918?v=4",
       "score": 3,
@@ -346,7 +355,7 @@
       "reposContributed": 1
     },
     {
-      "rank": 37,
+      "rank": 38,
       "username": "irisxvii",
       "avatarUrl": "https://avatars.githubusercontent.com/u/140954119?u=638fa2d40c2b61b9c0886aeb19d18c057eaf1cec&v=4",
       "score": 3,
@@ -355,7 +364,7 @@
       "reposContributed": 1
     },
     {
-      "rank": 38,
+      "rank": 39,
       "username": "vaishnavi783",
       "avatarUrl": "https://avatars.githubusercontent.com/u/184899243?u=aceec1c409478fefa165443984069d696605555e&v=4",
       "score": 3,
@@ -364,18 +373,9 @@
       "reposContributed": 1
     },
     {
-      "rank": 39,
+      "rank": 40,
       "username": "atul-dev-ai",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182104349?u=533ce40227b05e22bd01d13066d20d3676e31a90&v=4",
-      "score": 3,
-      "totalPRs": 0,
-      "totalIssues": 1,
-      "reposContributed": 1
-    },
-    {
-      "rank": 40,
-      "username": "JyothiSriLakshmi-1305",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/173877378?u=68c4eae7294e2ca6bfcf836429769ba8eb4bb2c7&v=4",
       "score": 3,
       "totalPRs": 0,
       "totalIssues": 1,
