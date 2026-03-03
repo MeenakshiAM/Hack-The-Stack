@@ -1,9 +1,9 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-03-03T13:11:11.860Z",
+  "lastUpdated": "2026-03-03T18:59:42.409Z",
   "totalParticipants": 46,
-  "totalPRsCounted": 251,
-  "totalIssuesCounted": 433,
+  "totalPRsCounted": 256,
+  "totalIssuesCounted": 438,
   "reposTracked": 20,
   "scoringRules": {
     "pr-created": 5,
@@ -25,17 +25,17 @@
       "rank": 1,
       "username": "adithyen",
       "avatarUrl": "https://avatars.githubusercontent.com/u/190613817?v=4",
-      "score": 691,
+      "score": 721,
       "totalPRs": 37,
-      "totalIssues": 57,
+      "totalIssues": 62,
       "reposContributed": 12
     },
     {
       "rank": 2,
       "username": "zyndor1548",
       "avatarUrl": "https://avatars.githubusercontent.com/u/149249986?u=aebd89dfe19166468f828751eef9c283e6bc27ae&v=4",
-      "score": 568,
-      "totalPRs": 28,
+      "score": 573,
+      "totalPRs": 29,
       "totalIssues": 31,
       "reposContributed": 6
     },
@@ -43,8 +43,8 @@
       "rank": 3,
       "username": "MTCodes01",
       "avatarUrl": "https://avatars.githubusercontent.com/u/108288413?u=9d353d991d60d44cb394c127a78a34ba30de64ef&v=4",
-      "score": 389,
-      "totalPRs": 19,
+      "score": 414,
+      "totalPRs": 22,
       "totalIssues": 28,
       "reposContributed": 8
     },
@@ -176,6 +176,15 @@
     },
     {
       "rank": 18,
+      "username": "megha200479",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/144714464?v=4",
+      "score": 78,
+      "totalPRs": 3,
+      "totalIssues": 6,
+      "reposContributed": 6
+    },
+    {
+      "rank": 19,
       "username": "sruthy1308",
       "avatarUrl": "https://avatars.githubusercontent.com/u/219709754?v=4",
       "score": 68,
@@ -184,7 +193,7 @@
       "reposContributed": 3
     },
     {
-      "rank": 19,
+      "rank": 20,
       "username": "annrose2277-glitch",
       "avatarUrl": "https://avatars.githubusercontent.com/u/229380659?v=4",
       "score": 59,
@@ -193,7 +202,7 @@
       "reposContributed": 2
     },
     {
-      "rank": 20,
+      "rank": 21,
       "username": "sreelekshmys06",
       "avatarUrl": "https://avatars.githubusercontent.com/u/196146821?v=4",
       "score": 53,
@@ -202,7 +211,7 @@
       "reposContributed": 4
     },
     {
-      "rank": 21,
+      "rank": 22,
       "username": "rahana-19",
       "avatarUrl": "https://avatars.githubusercontent.com/u/144819034?v=4",
       "score": 52,
@@ -211,22 +220,13 @@
       "reposContributed": 4
     },
     {
-      "rank": 22,
+      "rank": 23,
       "username": "Diosdeldiablo",
       "avatarUrl": "https://avatars.githubusercontent.com/u/219185051?v=4",
       "score": 46,
       "totalPRs": 2,
       "totalIssues": 2,
       "reposContributed": 2
-    },
-    {
-      "rank": 23,
-      "username": "megha200479",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/144714464?v=4",
-      "score": 43,
-      "totalPRs": 2,
-      "totalIssues": 6,
-      "reposContributed": 6
     },
     {
       "rank": 24,
