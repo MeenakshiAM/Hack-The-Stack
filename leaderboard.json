@@ -1,8 +1,8 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-03-02T18:57:47.686Z",
+  "lastUpdated": "2026-03-03T02:41:17.510Z",
   "totalParticipants": 46,
-  "totalPRsCounted": 245,
+  "totalPRsCounted": 246,
   "totalIssuesCounted": 423,
   "reposTracked": 20,
   "scoringRules": {
@@ -25,7 +25,7 @@
       "rank": 1,
       "username": "adithyen",
       "avatarUrl": "https://avatars.githubusercontent.com/u/190613817?v=4",
-      "score": 621,
+      "score": 636,
       "totalPRs": 32,
       "totalIssues": 47,
       "reposContributed": 11
@@ -223,8 +223,8 @@
       "rank": 23,
       "username": "annrose2277-glitch",
       "avatarUrl": "https://avatars.githubusercontent.com/u/229380659?v=4",
-      "score": 34,
-      "totalPRs": 2,
+      "score": 39,
+      "totalPRs": 3,
       "totalIssues": 8,
       "reposContributed": 2
     },
