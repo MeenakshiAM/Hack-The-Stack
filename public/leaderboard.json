@@ -1,6 +1,6 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-03-03T18:59:42.409Z",
+  "lastUpdated": "2026-03-04T02:33:39.892Z",
   "totalParticipants": 46,
   "totalPRsCounted": 256,
   "totalIssuesCounted": 438,
@@ -43,7 +43,7 @@
       "rank": 3,
       "username": "MTCodes01",
       "avatarUrl": "https://avatars.githubusercontent.com/u/108288413?u=9d353d991d60d44cb394c127a78a34ba30de64ef&v=4",
-      "score": 414,
+      "score": 429,
       "totalPRs": 22,
       "totalIssues": 28,
       "reposContributed": 8
