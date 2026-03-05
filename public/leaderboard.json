@@ -1,8 +1,8 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-03-04T18:59:27.100Z",
+  "lastUpdated": "2026-03-05T02:36:44.809Z",
   "totalParticipants": 46,
-  "totalPRsCounted": 261,
+  "totalPRsCounted": 262,
   "totalIssuesCounted": 443,
   "reposTracked": 20,
   "scoringRules": {
@@ -25,8 +25,8 @@
       "rank": 1,
       "username": "adithyen",
       "avatarUrl": "https://avatars.githubusercontent.com/u/190613817?v=4",
-      "score": 747,
-      "totalPRs": 37,
+      "score": 767,
+      "totalPRs": 38,
       "totalIssues": 64,
       "reposContributed": 13
     },
@@ -230,20 +230,20 @@
     },
     {
       "rank": 24,
+      "username": "Rithika1214",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/196407980?v=4",
+      "score": 36,
+      "totalPRs": 2,
+      "totalIssues": 2,
+      "reposContributed": 2
+    },
+    {
+      "rank": 25,
       "username": "SAMYUKTHASRR",
       "avatarUrl": "https://avatars.githubusercontent.com/u/166145174?u=9e7c70d549c34acf3d98490193ec8e4c9e362af5&v=4",
       "score": 29,
       "totalPRs": 1,
       "totalIssues": 3,
-      "reposContributed": 2
-    },
-    {
-      "rank": 25,
-      "username": "Rithika1214",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/196407980?v=4",
-      "score": 26,
-      "totalPRs": 2,
-      "totalIssues": 2,
       "reposContributed": 2
     },
     {
