@@ -1,6 +1,6 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-03-06T18:55:44.129Z",
+  "lastUpdated": "2026-03-07T02:27:57.761Z",
   "totalParticipants": 46,
   "totalPRsCounted": 281,
   "totalIssuesCounted": 449,
@@ -95,30 +95,30 @@
     },
     {
       "rank": 9,
+      "username": "devikrishna111",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/169533815?v=4",
+      "score": 225,
+      "totalPRs": 10,
+      "totalIssues": 15,
+      "reposContributed": 5
+    },
+    {
+      "rank": 10,
+      "username": "Nivyasudeesh",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/149654680?u=a207e3dcb70a21d9da537a1fdea86387fd8c411d&v=4",
+      "score": 206,
+      "totalPRs": 11,
+      "totalIssues": 22,
+      "reposContributed": 15
+    },
+    {
+      "rank": 11,
       "username": "Parvathy-pp",
       "avatarUrl": "https://avatars.githubusercontent.com/u/182094754?v=4",
       "score": 203,
       "totalPRs": 9,
       "totalIssues": 21,
       "reposContributed": 16
-    },
-    {
-      "rank": 10,
-      "username": "devikrishna111",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/169533815?v=4",
-      "score": 200,
-      "totalPRs": 10,
-      "totalIssues": 15,
-      "reposContributed": 5
-    },
-    {
-      "rank": 11,
-      "username": "Nivyasudeesh",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/149654680?u=a207e3dcb70a21d9da537a1fdea86387fd8c411d&v=4",
-      "score": 191,
-      "totalPRs": 11,
-      "totalIssues": 22,
-      "reposContributed": 15
     },
     {
       "rank": 12,
