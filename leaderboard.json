@@ -1,8 +1,8 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-03-07T06:51:32.590Z",
+  "lastUpdated": "2026-03-07T12:59:42.090Z",
   "totalParticipants": 46,
-  "totalPRsCounted": 282,
+  "totalPRsCounted": 284,
   "totalIssuesCounted": 451,
   "reposTracked": 20,
   "scoringRules": {
@@ -25,8 +25,8 @@
       "rank": 1,
       "username": "adithyen",
       "avatarUrl": "https://avatars.githubusercontent.com/u/190613817?v=4",
-      "score": 882,
-      "totalPRs": 46,
+      "score": 892,
+      "totalPRs": 48,
       "totalIssues": 64,
       "reposContributed": 13
     },
