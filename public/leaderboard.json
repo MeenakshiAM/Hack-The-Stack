@@ -1,9 +1,9 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-03-07T12:59:42.090Z",
+  "lastUpdated": "2026-03-07T18:41:53.297Z",
   "totalParticipants": 46,
   "totalPRsCounted": 284,
-  "totalIssuesCounted": 451,
+  "totalIssuesCounted": 458,
   "reposTracked": 20,
   "scoringRules": {
     "pr-created": 5,
@@ -43,7 +43,7 @@
       "rank": 3,
       "username": "MTCodes01",
       "avatarUrl": "https://avatars.githubusercontent.com/u/108288413?u=9d353d991d60d44cb394c127a78a34ba30de64ef&v=4",
-      "score": 434,
+      "score": 449,
       "totalPRs": 22,
       "totalIssues": 28,
       "reposContributed": 8
@@ -61,9 +61,9 @@
       "rank": 5,
       "username": "DIYA-BHATT29",
       "avatarUrl": "https://avatars.githubusercontent.com/u/149696438?u=8b64376816d9669e2a9be8b6db0e9137c851c8bf&v=4",
-      "score": 266,
+      "score": 302,
       "totalPRs": 18,
-      "totalIssues": 22,
+      "totalIssues": 29,
       "reposContributed": 10
     },
     {
