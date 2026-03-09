@@ -1,8 +1,8 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-03-09T13:17:26.848Z",
+  "lastUpdated": "2026-03-09T19:01:15.773Z",
   "totalParticipants": 46,
-  "totalPRsCounted": 284,
+  "totalPRsCounted": 289,
   "totalIssuesCounted": 458,
   "reposTracked": 20,
   "scoringRules": {
@@ -124,8 +124,8 @@
       "rank": 12,
       "username": "annrose2277-glitch",
       "avatarUrl": "https://avatars.githubusercontent.com/u/229380659?v=4",
-      "score": 158,
-      "totalPRs": 6,
+      "score": 183,
+      "totalPRs": 11,
       "totalIssues": 16,
       "reposContributed": 5
     },
