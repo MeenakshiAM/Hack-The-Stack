@@ -1,9 +1,9 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-03-12T13:14:57.904Z",
+  "lastUpdated": "2026-03-12T19:02:06.154Z",
   "totalParticipants": 46,
-  "totalPRsCounted": 291,
-  "totalIssuesCounted": 458,
+  "totalPRsCounted": 293,
+  "totalIssuesCounted": 462,
   "reposTracked": 20,
   "scoringRules": {
     "pr-created": 5,
@@ -61,9 +61,9 @@
       "rank": 5,
       "username": "DIYA-BHATT29",
       "avatarUrl": "https://avatars.githubusercontent.com/u/149696438?u=8b64376816d9669e2a9be8b6db0e9137c851c8bf&v=4",
-      "score": 302,
+      "score": 314,
       "totalPRs": 18,
-      "totalIssues": 29,
+      "totalIssues": 33,
       "reposContributed": 10
     },
     {
@@ -86,20 +86,20 @@
     },
     {
       "rank": 8,
+      "username": "devikrishna111",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/169533815?v=4",
+      "score": 235,
+      "totalPRs": 12,
+      "totalIssues": 15,
+      "reposContributed": 5
+    },
+    {
+      "rank": 9,
       "username": "alkadevii",
       "avatarUrl": "https://avatars.githubusercontent.com/u/110056403?u=c87dbdec99b2139e7f30003be8e584946dfd7518&v=4",
       "score": 229,
       "totalPRs": 11,
       "totalIssues": 13,
-      "reposContributed": 5
-    },
-    {
-      "rank": 9,
-      "username": "devikrishna111",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/169533815?v=4",
-      "score": 225,
-      "totalPRs": 10,
-      "totalIssues": 15,
       "reposContributed": 5
     },
     {
