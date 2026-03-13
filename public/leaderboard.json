@@ -1,9 +1,9 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-03-13T13:12:51.776Z",
+  "lastUpdated": "2026-03-13T18:52:13.458Z",
   "totalParticipants": 46,
-  "totalPRsCounted": 305,
-  "totalIssuesCounted": 493,
+  "totalPRsCounted": 328,
+  "totalIssuesCounted": 510,
   "reposTracked": 20,
   "scoringRules": {
     "pr-created": 5,
@@ -25,9 +25,9 @@
       "rank": 1,
       "username": "adithyen",
       "avatarUrl": "https://avatars.githubusercontent.com/u/190613817?v=4",
-      "score": 962,
-      "totalPRs": 50,
-      "totalIssues": 74,
+      "score": 1100,
+      "totalPRs": 56,
+      "totalIssues": 75,
       "reposContributed": 14
     },
     {
@@ -41,30 +41,30 @@
     },
     {
       "rank": 3,
+      "username": "annrose2277-glitch",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/229380659?v=4",
+      "score": 563,
+      "totalPRs": 32,
+      "totalIssues": 36,
+      "reposContributed": 12
+    },
+    {
+      "rank": 4,
+      "username": "DIYA-BHATT29",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/149696438?u=8b64376816d9669e2a9be8b6db0e9137c851c8bf&v=4",
+      "score": 509,
+      "totalPRs": 26,
+      "totalIssues": 48,
+      "reposContributed": 10
+    },
+    {
+      "rank": 5,
       "username": "MTCodes01",
       "avatarUrl": "https://avatars.githubusercontent.com/u/108288413?u=9d353d991d60d44cb394c127a78a34ba30de64ef&v=4",
       "score": 449,
       "totalPRs": 22,
       "totalIssues": 28,
       "reposContributed": 8
-    },
-    {
-      "rank": 4,
-      "username": "annrose2277-glitch",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/229380659?v=4",
-      "score": 361,
-      "totalPRs": 23,
-      "totalIssues": 27,
-      "reposContributed": 9
-    },
-    {
-      "rank": 5,
-      "username": "DIYA-BHATT29",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/149696438?u=8b64376816d9669e2a9be8b6db0e9137c851c8bf&v=4",
-      "score": 348,
-      "totalPRs": 18,
-      "totalIssues": 41,
-      "reposContributed": 10
     },
     {
       "rank": 6,
