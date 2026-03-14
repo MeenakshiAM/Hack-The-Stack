@@ -1,8 +1,8 @@
 {
   "eventName": "Hack The Stack",
-  "lastUpdated": "2026-03-14T06:56:54.289Z",
+  "lastUpdated": "2026-03-14T13:05:03.292Z",
   "totalParticipants": 46,
-  "totalPRsCounted": 328,
+  "totalPRsCounted": 329,
   "totalIssuesCounted": 510,
   "reposTracked": 20,
   "scoringRules": {
@@ -52,8 +52,8 @@
       "rank": 4,
       "username": "DIYA-BHATT29",
       "avatarUrl": "https://avatars.githubusercontent.com/u/149696438?u=8b64376816d9669e2a9be8b6db0e9137c851c8bf&v=4",
-      "score": 509,
-      "totalPRs": 26,
+      "score": 514,
+      "totalPRs": 27,
       "totalIssues": 48,
       "reposContributed": 10
     },
